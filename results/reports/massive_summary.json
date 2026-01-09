@@ -1,0 +1,128 @@
+[
+  {
+    "model": "all-mpnet-base-v2",
+    "engine": "ST Baseline",
+    "mrr": 0.7421,
+    "baseline_diff": 0.0
+  },
+  {
+    "model": "all-mpnet-base-v2",
+    "engine": "CrossPolytope L1",
+    "mrr": 0.7388,
+    "baseline_diff": -0.44468400485109416
+  },
+  {
+    "model": "all-mpnet-base-v2",
+    "engine": "Hybrid Radial (a=0.1)",
+    "mrr": 0.7438,
+    "baseline_diff": 0.22907963886269167
+  },
+  {
+    "model": "all-mpnet-base-v2",
+    "engine": "Hybrid Radial (a=0.2)",
+    "mrr": 0.7441,
+    "baseline_diff": 0.2695054574855143
+  },
+  {
+    "model": "all-mpnet-base-v2",
+    "engine": "Hybrid Radial (a=0.3)",
+    "mrr": 0.7443,
+    "baseline_diff": 0.2964560032340628
+  },
+  {
+    "model": "BAAI/bge-base-en-v1.5",
+    "engine": "ST Baseline",
+    "mrr": 0.7382,
+    "baseline_diff": 0.0
+  },
+  {
+    "model": "BAAI/bge-base-en-v1.5",
+    "engine": "CrossPolytope L1",
+    "mrr": 0.7206,
+    "baseline_diff": -2.3841777296125644
+  },
+  {
+    "model": "BAAI/bge-base-en-v1.5",
+    "engine": "Hybrid Radial (a=0.1)",
+    "mrr": 0.7375,
+    "baseline_diff": -0.09482525060958046
+  },
+  {
+    "model": "BAAI/bge-base-en-v1.5",
+    "engine": "Hybrid Radial (a=0.2)",
+    "mrr": 0.7393,
+    "baseline_diff": 0.14901110810078433
+  },
+  {
+    "model": "BAAI/bge-base-en-v1.5",
+    "engine": "Hybrid Radial (a=0.3)",
+    "mrr": 0.7364,
+    "baseline_diff": -0.2438363587103648
+  },
+  {
+    "model": "intfloat/e5-base-v2",
+    "engine": "ST Baseline",
+    "mrr": 0.7705,
+    "baseline_diff": 0.0
+  },
+  {
+    "model": "BAAI/bge-large-en-v1.5",
+    "engine": "ST Baseline",
+    "mrr": 0.7547,
+    "baseline_diff": 0.0
+  },
+  {
+    "model": "BAAI/bge-large-en-v1.5",
+    "engine": "CrossPolytope L1",
+    "mrr": 0.7452,
+    "baseline_diff": -1.258778322512265
+  },
+  {
+    "model": "BAAI/bge-large-en-v1.5",
+    "engine": "Hybrid Radial (a=0.1)",
+    "mrr": 0.7577,
+    "baseline_diff": 0.3975089439512392
+  },
+  {
+    "model": "BAAI/bge-large-en-v1.5",
+    "engine": "Hybrid Radial (a=0.2)",
+    "mrr": 0.7549,
+    "baseline_diff": 0.026500596263413008
+  },
+  {
+    "model": "BAAI/bge-large-en-v1.5",
+    "engine": "Hybrid Radial (a=0.3)",
+    "mrr": 0.752,
+    "baseline_diff": -0.35775804955611973
+  },
+  {
+    "model": "intfloat/e5-large-v2",
+    "engine": "ST Baseline",
+    "mrr": 0.7923,
+    "baseline_diff": 0.0
+  },
+  {
+    "model": "intfloat/e5-large-v2",
+    "engine": "CrossPolytope L1",
+    "mrr": 0.7752,
+    "baseline_diff": -2.1582733812949644
+  },
+  {
+    "model": "intfloat/e5-large-v2",
+    "engine": "Hybrid Radial (a=0.1)",
+    "mrr": 0.7918,
+    "baseline_diff": -0.06310740880980133
+  },
+  {
+    "model": "intfloat/e5-large-v2",
+    "engine": "Hybrid Radial (a=0.2)",
+    "mrr": 0.7864,
+    "baseline_diff": -0.7446674239555745
+  },
+  {
+    "model": "intfloat/e5-large-v2",
+    "engine": "Hybrid Radial (a=0.3)",
+    "mrr": 0.7753,
+    "baseline_diff": -2.1456518995330067
+  }
+]

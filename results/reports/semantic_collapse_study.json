@@ -1,0 +1,58 @@
+[
+  {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "scale": 1000,
+    "standard_mrr": 0.6764333333333329,
+    "hybrid_mrr": 0.6758000000000002,
+    "diff": -0.0006333333333327085
+  },
+  {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "scale": 5000,
+    "standard_mrr": 0.663733333333333,
+    "hybrid_mrr": 0.6619666666666667,
+    "diff": -0.00176666666666625
+  },
+  {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "scale": 10000,
+    "standard_mrr": 0.6356333333333329,
+    "hybrid_mrr": 0.6338666666666667,
+    "diff": -0.00176666666666625
+  },
+  {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "scale": 15000,
+    "standard_mrr": 0.6297999999999995,
+    "hybrid_mrr": 0.6274999999999998,
+    "diff": -0.0022999999999996357
+  },
+  {
+    "model": "intfloat/e5-large-v2",
+    "scale": 1000,
+    "standard_mrr": 0.7887333333333334,
+    "hybrid_mrr": 0.7911,
+    "diff": 0.002366666666666628
+  },
+  {
+    "model": "intfloat/e5-large-v2",
+    "scale": 5000,
+    "standard_mrr": 0.7800999999999999,
+    "hybrid_mrr": 0.7830666666666667,
+    "diff": 0.002966666666666784
+  },
+  {
+    "model": "intfloat/e5-large-v2",
+    "scale": 10000,
+    "standard_mrr": 0.7676666666666666,
+    "hybrid_mrr": 0.7705333333333334,
+    "diff": 0.002866666666666795
+  },
+  {
+    "model": "intfloat/e5-large-v2",
+    "scale": 15000,
+    "standard_mrr": 0.7635666666666666,
+    "hybrid_mrr": 0.7667000000000002,
+    "diff": 0.0031333333333335434
+  }
+]

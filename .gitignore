@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/
+results/logs/
+old/
+node_modules/
+.ipynb_checkpoints/
+*.txt
+*.json
+!results/reports/*.json
+!README.md
+!RESEARCH.md
+!FINAL_REPORT.md
